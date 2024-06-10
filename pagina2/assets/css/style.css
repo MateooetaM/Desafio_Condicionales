@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.galeria {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.galeria img{
+    width: 300px;
+    max-width: 400px;
+}
+
+button{
+    margin: 1rem;
+}
+
+.enlaces{
+    display: flex;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: black;
+    margin: 0 1rem;
+}
+
+.enlaces a:hover{
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-2{
+    display: flex;
+    margin:2rem;
+}
+
+button{
+    margin: 1rem;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: black;
+    margin:2rem 1rem;
+}
+
+.enlaces a:hover{
+    font-weight: bold;
+}
